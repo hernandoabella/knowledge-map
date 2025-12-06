@@ -15,7 +15,7 @@
 - [Request Parsing](/backend/core-foundations/request-parsing.md)
 - [CORS (Cross-Origin Resource Sharing)](/backend/core-foundations/cors.md)
 
-### Networking
+### [Networking](/backend/core-foundations/networking.md)
 - [TCP vs UDP](/backend/core-foundations/tcp-vs-udp.md)
 - [3-Way Handshake](/backend/core-foundations/3-way-handshake.md)
 - [NAT (Network Address Translation)](/backend/core-foundations/nat.md)
