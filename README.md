@@ -1,4 +1,4 @@
 # knowledge-map
 
-- [frontend](/frontend/README.md)
-- [backend](/backend/README.md)
+- [Frontend](/frontend/README.md)
+- [Backend](/backend/README.md)
