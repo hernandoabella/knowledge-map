@@ -1,83 +1,69 @@
-# Back-End
+# Back-End Mastery
 
-## CORE FOUNDATIONS
+## Foundations
+### [How does the Internet Works?](/backend/core-foundations/how-the-internet-works.md)
+- [What is a Server](/backend/core-foundations/what-is-a-server.md)
+- [What is a Client](/backend/core-foundations/what-is-a-client.md)
+- [HTTP vs HTTPS](/backend/core-foundations//http-vs-https.md)
+- [DNS (Domain Name Server](/backend/core-foundations/dns.md)
+- [IP address](/backend/core-foundations/ip-address.md)
+- [Ports](/backend/core-foundations/ports.md)
+- [Domain vs Hosting vs Server](/backend/core-foundations/domain-vs-hosting-vs-server.md)
+- [Request & Response cycle](/backend/core-foundations/request-and-response-cycle.md)
+- [Status Codes](/backend/core-foundations/status-codes.md)
+- [JSON Handling](/backend/core-foundations/json-handling.md)
+- [Request Parsing](/backend/core-foundations/request-parsing.md)
+- [CORS (Cross-Origin Resource Sharing)](/backend/core-foundations/cors.md)
 
-```
+### Networking
+- [TCP vs UDP](/backend/core-foundations/tcp-vs-udp.md)
+- [3-Way Handshake](/backend/core-foundations/3-way-handshake.md)
+- [NAT (Network Address Translation)](/backend/core-foundations/nat.md)
+- [Firewalls](/backend/core-foundations/firewalls.md)
+- [Reverse Proxy](/backend/core-foundations/reverse-proxy.md)
+- [Forward Proxy](/backend/core-foundations/forward-proxy.md)
+- [Load Balancer](/backend/core-foundations/load-balancer.md)
+- [CDN (Content Delivery Network)](/backend/core-foundations/cdn.md)
+- [SSL/TLS Handshake](/backend/core-foundations/ssl-tls-handshake.md)
+- [WebSockets](/backend/core-foundations/websockets.md)
+- [VPN vs Proxy](/backend/core-foundations/vpn-vs-proxy.md)
+- [Port Forwarding](/backend/core-foundations/port-forwarding.md)
+- [Sockets](/backend/core-foundations/sockets.md)
 
-How the Internet Works
-- What is a server
-- What is a client
-- HTTP vs HTTPS
-- DNS
-- IP address
-- Domain vs Hosting vs Server
-- Request & Response cycle
-- Status codes: 200, 201, 204, 301, 401, 403, 404, 500, 503
-
-Programming Basics
-   - Variables & constants
-   - Functions
-   - Loops (for, while)
-   - Conditionals (if / else / switch)
-   - Arrays & lists
-   - Objects & dictionaries
-   - Error handling (try/catch)
-   - Clean code principles
-
-Main Languages:
-   - PHP
-   - JavaScript (Node.js)
-   - Python (secondary)
-   - Bash (terminal)
-
-Mini Projects:
-   - Calculator
-   - Random Password Generator
-   - Email Validator
-   - CLI Tool
-
-```
-
-## BACKEND SERVERS
-```
-1. Node.js
+## Backend Servers
+- Node.js
    - Express.js
    - Fastify
    - Middlewares
    - Routing
    - Controllers
    - Services
-
-2. PHP (Laravel)
+- PHP (Laravel)
    - Routing
    - Controllers
    - Models
    - ORM (Eloquent)
    - API development
-
-3. Python
+- Python
    - Flask
    - Django
 
-Learn:
-   - JSON handling
-   - Request parsing
-   - Responses
-   - Status codes
-   - CORS
-
-CRUD example:
-   GET /users
-   POST /users
-   PUT /users/:id
-   DELETE /users/:id
-
-Goal: Build multiple CRUD APIs
+#### CRUD example:
+```txt
+GET /users
+POST /users
+PUT /users/:id
+DELETE /users/:id
 ```
 
-## DATABASES (SQL + NoSQL)
-```
-SQL:
+**Goal:** Build multiple CRUD APIs
+
+## Databases
+- Normalization vs Denormalization
+- ACID vs BASE
+- Query planner (EXPLAIN)
+
+- SQL:
    - MySQL
    - PostgreSQL
    - SELECT, INSERT, UPDATE, DELETE
@@ -87,51 +73,49 @@ SQL:
    - Foreign keys
    - Transactions
 
-NoSQL:
+- NoSQL:
    - MongoDB
    - Redis (cache, sessions, rate limit)
 
-Database Design:
+- **Database Design:**
    - users
    - orders
    - products
    - roles
    - payments
    - logs
-```
 
-## AUTHENTICATION & SECURITY
 
-```
-Auth systems:
+## Authentication and Security
+### Auth systems:
    - Register
    - Login
    - Logout
    - Forgot / Reset password
+   - Email verification
+   
+### Authorization
+   - Roles & Permissions (RBAC)
+   - Policies & Gates
+   - Token expiration
+   - Refresh tokens
 
-Security:
+### Security:
    - Hashing (bcrypt)
    - JWT
    - Refresh tokens
    - OAuth (Google, GitHub)
-   - Roles & Permissions (RBAC)
    - Token expiration
    - Rate limiting
 
-Protection against:
+### Protection against:
    - SQL Injection
    - XSS
    - CSRF
    - Brute force
    - DDoS (concept)
 
-Project:
-   - Advanced Auth System
-```
-
-## API MASTERY
-
-```
+## APIs
 - REST APIs
 - API versioning (/v1, /v2)
 - Swagger / OpenAPI
@@ -146,61 +130,7 @@ Project:
 - Rate limit
 - API keys
 
-Project:
-   - Public multi-version API
-```
-
-## LARAVEL MASTER LEVEL
-```
-- Migrations
-- Seeders
-- Factories
-- Policies
-- Form requests
-- Resource controllers
-- API Resources
-- Observers
-- Jobs
-- Queues
-- Events / Listeners
-- Laravel Sanctum
-- Laravel Passport
-- Caching
-- Scheduling (Cron jobs)
-- Testing (PHPUnit)
-
-You become here:
-   ✅ Laravel Backend Engineer
-```
-
-## NEXT.JS + FULL STACK POWER
-
-```
-Even as a backend dev, you MUST know this:
-
-Next.js (App router):
-   - API routes (backend inside Next.js)
-   - Server Actions
-   - Middleware
-   - JWT sessions
-   - Database connection (Prisma)
-   - Authentication (NextAuth)
-   - Rate limiting
-   - File upload
-   - Cron jobs
-   - Webhooks
-
-Stack:
-   - Next.js + PostgreSQL
-   - Next.js + Laravel (API)
-   - Next.js + Node API
-
-Goal:
-   - Full Stack Backend Power
-```
-
-## REAL-TIME & ADVANCED BACKEND
-```
+## Real-time & Advanced Backend
 - WebSockets
 - Socket.io
 - Laravel Echo
@@ -210,51 +140,54 @@ Goal:
 - Queues explained
 - Redis Pub/Sub
 
-Project:
-   - Real-time Chat Backend
-   - Multiplayer Game Server
-   - Live Trading Updates
-```
-
-## SYSTEM DESIGN & ARCHITECTURE
-```
-- MVC
+## System Design & Architecture
+- MVC Architecture
 - Clean Architecture
-- SOLID principles
+- SOLID Principles
 - Repository Pattern
-- Service pattern
+- Service Pattern
 - CQRS
-- Event-driven architecture
-- Monolith vs Microservices
+- Event Driven Architecture
+- CAP Theorem
+- Vertical slice architecture
+
+### System Types
+- Monolith
+- Microservices
 - Microservices communication
-- Load balancers
-- Reverse proxy
+- API Gateway
+- Service Discovery
+
+### Infrastructure
+- Load Balancers
+- Reverse Proxy
 - Horizontal vs Vertical scaling
 - CDN
-- Sharding (advanced)
-```
+- Sharding
+- Health checks
+- Circuit Breaker
+- Rate Limiting
+- Failover systems
 
-## DEVOPS & CLOUD
-
-```
+## DevOps & Cloud
+- Linux basics
 - Docker
 - Docker Compose
+- Kubernetes (intro)
 - GitHub Actions
 - CI/CD pipelines
-- NGINX
-- PM2
-- Server monitoring
+- NGINX / Apache
+- PM2 / Supervisor
+- Monitoring
 - Logs
-- SSL/TLS
 - Domain & DNS
-- VPS setup (Linux)
+- SSL/TLS
+- VPS setup
 - DigitalOcean
-- AWS (EC2, S3, RDS)
-- Railway / Vercel
-```
+- AWS (EC2, S3, RDS, Lambda)
+- Railway / Vercel / Render
 
-## PERFORMANCE & SCALING
-```
+## Performance & Scaling
 - Redis caching
 - Query optimization
 - Indexes
@@ -265,9 +198,8 @@ Project:
 - Performance monitoring
 - Stress testing
 - Load testing
+- N+1 problem
+- Bottlenecks analysis
 
-Tools:
-- K6
-- Artillery
-- New Relic
-```
+## Tools:
+- [Backend Tools](/backend/tools.md)
