@@ -10,7 +10,7 @@
 - [Ports](/backend/core-foundations/ports.md)
 - [Domain vs Hosting vs Server](/backend/core-foundations/domain-vs-hosting-vs-server.md)
 - [Request & Response cycle](/backend/core-foundations/request-and-response-cycle.md)
-- [Status Codes](/backend/core-foundations/status-codes.md)
+- [Status Codes](/backend/core-foundations/http-status-codes.md)
 - [JSON Handling](/backend/core-foundations/json-handling.md)
 - [Request Parsing](/backend/core-foundations/request-parsing.md)
 - [CORS (Cross-Origin Resource Sharing)](/backend/core-foundations/cors.md)
